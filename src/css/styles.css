@@ -16,16 +16,22 @@
 
 :root {
   font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: var(--main-black);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --main-black: #141414;
+  --main-green: #a1c487;
+  --main-green-light: #eaf7e5;
+  --main-orange: #fc8a11;
+  --main-orange-light: #faf3e7;
+  --main-gray: #f3f3f3;
 }
