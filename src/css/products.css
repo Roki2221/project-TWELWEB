@@ -1,10 +1,11 @@
 /* mobile */
-.container-mobile {
-  max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+.container {
+min-width: 280px;
+max-width: 375px;
+margin-left: auto;
+margin-right: auto;
+padding-right: 20px;
+padding-left: 20px;
 }
 .title-section-products {
   display: flex;
