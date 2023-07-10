@@ -3,7 +3,7 @@
     padding-left: 0;
   }
   .container {
-    min-width: 320px;
+    min-width: 280px;
     max-width: 375px;
     margin-left: auto;
     margin-right: auto;
@@ -63,6 +63,7 @@
     background-image: url(/img/howitworks/BG.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 92%;
   
     /* background-image: radial-gradient(circle at 5.025px 5.025px, rgba(165, 196, 135, 0.31) 5.025px, transparent 0);
       background-size: 41.46px 40.2px;
@@ -280,6 +281,9 @@
     }
     .text-steps {
       max-width: 289px;
+    }
+    .toorder-text{
+      min-width: 294px;
     }
   }
   
