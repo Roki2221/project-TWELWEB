@@ -2,15 +2,6 @@
     list-style-type: none;
     padding-left: 0;
   }
-  
-  p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.04em;
-    color: #141414;
-  }
-  
   .container {
     min-width: 320px;
     max-width: 375px;
@@ -56,6 +47,13 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+  .toorder-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+    color: #141414;
   }
   
   .container-steps {
@@ -115,6 +113,11 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 200px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+    color: #141414;
   }
   
   .photo-girl {
