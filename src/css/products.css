@@ -99,3 +99,25 @@
     overflow: hidden;
   }
 }
+.order-products-btn {
+width: 80px;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+margin-bottom: 80px;
+margin-left: auto;
+margin-right: auto;
+border: none;
+border-radius: 50%;
+background-color: #FC8A11;
+color: #ffffff;
+letter-spacing: -0.72px;
+text-transform: uppercase;
+transform: rotate(-14deg);
+}
+.order-products-btn { 
+    fill: #ffffff;
+    gap: 4px;
+    }
