@@ -1,0 +1,255 @@
+:root
+{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {margin: 0;}
+li
+{
+    list-style-type: none;
+}
+p
+{
+    margin: 0;
+    padding: 0;
+}
+.container1 /* conflicts with .container in howitworks.css(bg-color)*/
+{
+   
+   padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto; 
+    
+}
+.hero
+{
+   /* height: 762px; */
+    background-color: #A1C487; /* change to var*/
+    padding: 0;
+    margin: 0;
+}
+
+.hero-container
+{
+    background-color: var(--main-green);
+    padding-top: 48px;
+    padding-bottom: 20px;
+}
+
+.hero-reviews-block
+{
+ 
+    margin-bottom: 14px;
+}
+.hero-reviews-list
+{
+    display: flex;
+    padding: 0;
+    
+   
+}
+.hero-user-circle {
+
+
+    width: 44px;    
+    height: 44px;   
+    border-radius: 50%;
+    background-color: #ffffff; /* change to var*/
+    margin-right: -15px;
+ 
+}
+.hero-user-pic {
+    padding: 2px;
+    box-sizing: content-box; }
+.hero-text-circle {
+    color: #141414;
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans, sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: -0.32px;
+    padding-top: 10px;
+    
+
+}
+.hero-2k {
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
+    display: block;
+ margin-bottom: 2px;
+
+}
+.hero-title {
+    color: #FFF;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+    margin: 0 auto 12px auto;
+}
+.title-hero-veg
+{
+    color: #EAF7E5; 
+    font-style: italic;
+}
+.hero-paragraph {
+    color: #FFF;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-family: DM Sans, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.56px;
+margin-bottom: 20px;
+}
+
+.hero-btn {
+    display: block;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FAF3E7;
+    margin-bottom: 8px;
+}
+
+.hero-btn-txt
+{
+    display: flex;
+width: 56px;
+height: 32px;
+transform: rotate(-14deg);
+/*flex-direction: column;
+justify-content: center; useless? */
+flex-shrink: 0;
+color: #FC8A11;
+/* text-align: center; */
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-family: DM Sans, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.56px;
+text-transform: uppercase;
+}
+
+
+.hero-cabbage-container
+{
+    background-image: url(/img/hero/woman-cabbage.png);
+margin: 0 auto 16px auto;
+width: 278px;
+ height: 228px;
+
+ background-position-x: inherit;
+ background-repeat: no-repeat;
+ background-size: contain;
+
+}
+.hero-tags-block {
+
+    width: 171px; /* have no idea why 169px doesn`t work*/
+    height: 60px;
+margin-left: auto;
+margin-right: 40px;
+
+}
+.hero-tags-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    width: inherit;
+    margin: 0;
+}
+
+.hero-anchor
+{
+    padding: 8px 14px;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+text-align: center;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-family: DM Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: -0.4px;
+text-transform: uppercase;
+border-radius: 1000px;
+border: 1px solid #FFF;
+}
+
+.hero-anchor:hover,
+.hero-anchor:focus
+{
+    background-color: #FFF;
+    color: #141414;
+}
+
+@media (min-width: 375px)
+{
+.container{
+    min-width: 335px;
+}
+}
+
+@media (min-width: 768px)
+{
+.container{
+    max-width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.hero-container
+{
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+.hero-title
+{
+
+    font-size: 54px;
+font-weight: 500;
+line-height: 64px;
+letter-spacing: -2.16px;
+text-transform: uppercase;
+}
+
+.hero-paragraph
+{
+    max-width: 490px;
+}
+
+.hero-cabbage-container
+{
+    background-image: url(/img/hero/woman-cabbage-tablet.png);
+margin: 0 auto 8px auto;
+width: 540px;
+ height: 427px;
+
+ background-position-x: inherit;
+ background-repeat: no-repeat;
+ background-size: contain;
+
+}
+}
