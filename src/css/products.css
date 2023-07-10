@@ -121,3 +121,7 @@ transform: rotate(-14deg);
     fill: #ffffff;
     gap: 4px;
     }
+.order-products-btn:hover,
+.order-products-btn:focus {
+    background-color: #A1C487;
+} 
