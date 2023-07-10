@@ -126,3 +126,24 @@ transform: rotate(-14deg);
 .order-products-btn:focus {
     background-color: #A1C487;
 } 
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .title-products {
+    font-size: 28px;
+    line-height: 1.35;
+    letter-spacing: -1.12px;
+  }
+  .title-products-description {
+    font-size: 18px;
+     font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+}
