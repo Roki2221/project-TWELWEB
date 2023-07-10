@@ -173,6 +173,20 @@
         height: 179px;
     }
 
+    .footer-address-link {
+        font-size: 18px;
+        line-height: 1.33;
+        text-transform: uppercase;
+    }
+    
+    .footer-address-text {
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.36px;
+        max-width: 173px;
+        text-align: left;
+    }
+
 }
 
 /**----------DESKTOP----------**/
@@ -184,17 +198,30 @@
         padding-left: 32px;
         padding-right: 32px;
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        gap: 166px;
     }
 
     .footer-logo-img {
         width: 349px;
         height: 179px;
     }
-    
+
     .footer-menu {
-      
+        margin-top: 80px
+        ;
     }
     
+    .footer-address-link {
+        font-size: 18px;
+        line-height: 1.33;
+        text-transform: uppercase;
+    }
+    
+    .footer-address-text {
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.36px;
+        max-width: 173px;
+        text-align: left;
+    }
 }
