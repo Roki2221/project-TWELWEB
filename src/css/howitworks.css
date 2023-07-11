@@ -1,20 +1,14 @@
-.list {
-    list-style-type: none;
+.list-howitworks {
     padding-left: 0;
   }
-  .container {
-    min-width: 320px;
+  .container-howitworks{
+    min-width: 280px;
     max-width: 375px;
     margin-left: auto;
     margin-right: auto;
     padding-right: 20px;
     padding-left: 20px;
-  
-    color: #141414;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 18px;
-    background-color: #fff;
-    font-style: normal;
+
   }
   
   .container-toorder {
@@ -38,9 +32,6 @@
     font-weight: 500;
     font-size: 28px;
     line-height: 1.14;
-    letter-spacing: -0.04em;
-    color: #141414;
-    font-style: normal;
   }
   
   .toorder-list {
@@ -48,21 +39,16 @@
     flex-direction: column;
     gap: 20px;
   }
-  .toorder-text{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.04em;
-    color: #141414;
-  }
+
   
   .container-steps {
-    background-color: #faf3e7;
+    background-color: var(--main-orange-light);
     border-radius: 40px;
     padding: 40px 20px 0px 20px;
     background-image: url(/img/howitworks/BG.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 92%;
   
     /* background-image: radial-gradient(circle at 5.025px 5.025px, rgba(165, 196, 135, 0.31) 5.025px, transparent 0);
       background-size: 41.46px 40.2px;
@@ -76,8 +62,6 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 1.17;
-    letter-spacing: -0.04em;
-    color: #141414;
   }
   
   .steps-list {
@@ -95,7 +79,7 @@
   }
   
   .number-item {
-    background-color: #a1c487;
+    background-color: var(--main-green);
     border-radius: 200px;
     font-size: 18px;
     font-weight: 400;
@@ -113,11 +97,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 200px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.04em;
-    color: #141414;
+
   }
   
   .photo-girl {
@@ -141,7 +121,7 @@
   
   /* ------ for mobile-------- */
   @media (min-width: 375px) {
-    .container {
+    .container-howitworks {
       max-width: 375px;
     }
     .container-steps {
@@ -151,7 +131,7 @@
   
   /* ------ for laptop -------- */
   @media (min-width: 768px) {
-    .container {
+    .container-howitworks {
       max-width: 768px;
       padding-right: 32px;
       padding-left: 32px;
@@ -231,7 +211,7 @@
   
   /* ------ for PC-------- */
   @media (min-width: 1280px) {
-    .container {
+    .container-howitworks{
       max-width: 1280px;
     }
     .container-toorder {
@@ -280,6 +260,9 @@
     }
     .text-steps {
       max-width: 289px;
+    }
+    .toorder-text{
+      min-width: 294px;
     }
   }
   
