@@ -1,0 +1,183 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+  integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link rel="stylesheet" href="../css/modal.css" />
+<link rel="stylesheet" href="../css/reset.css" />
+<link rel="stylesheet" href="../css/styles.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<div class="modal-window">
+  <div class="modal-header">
+    <h2 class="order-basket-title">Your Order</h2>
+    <button class="modal-close-btn" type="button" data-modal-close>
+      <svg class="modal-close-icon" width="28" height="28">
+        <use href="../img/icon.svg#icon-cross-modal"></use>
+      </svg>
+    </button>
+  </div>
+  <ul class="modal-order-list">
+    <!--                 cabbage -->
+    <li class="modal-oreder-item">
+      <input
+        type="checkbox"
+        name="order-cabbage"
+        id="order-cabbage"
+        class="order-checkbox visually-hidden"
+      />
+
+      <span class="modal-order-check-ok"
+        ><svg class="check-ok-icon" width="16" height="16">
+          <use href="../img/icon.svg#icon-checkbox-ok"></use>
+        </svg>
+      </span>
+      <label for="order-cabbage" class="order-check">
+        <span class="modal-order-check"
+          ><svg width="16" height="16">
+            <use href="../img/icon.svg#icon-checkbox"></use>
+          </svg>
+        </span>
+
+        <h3 class="modal-order-title">Cabbage Basket</h3>
+        <p class="modal-item-paragraf">Plant</p>
+
+        <img
+          class="modal-item-img"
+          srcset="
+            ../img/modal/cabbage-modal.png    1x,
+            ../img/modal/cabbage-modal.png-2x 2x
+          "
+          src="..//img/modal/cabbage-modal.png"
+          alt="cabbage"
+          width="94"
+          height="78"
+        />
+      </label>
+      <!--          tomato -->
+    </li>
+    <li class="modal-oreder-item">
+      <input
+        type="checkbox"
+        name="order-tomato"
+        id="order-tomato"
+        class="order-checkbox visually-hidden"
+      />
+      <span class="modal-order-check-ok"
+        ><svg class="check-ok-icon" width="16" height="16">
+          <use href="../img/icon.svg#icon-checkbox-ok"></use>
+        </svg>
+      </span>
+
+      <label for="order-tomato" class="order-check">
+        <span class="modal-order-check"
+          ><svg width="16" height="16">
+            <use href="../img/icon.svg#icon-checkbox"></use>
+          </svg>
+        </span>
+
+        <h3 class="modal-order-title">Tomato Basket</h3>
+        <p class="modal-item-paragraf">Plant</p>
+
+        <div class="modal-img-container">
+          <img
+            class="modal-item-img"
+            srcset="../img/modal/tomato-modal.png 1x, ../img/modal/tomato-modal-2x.png 2x"
+            src="../img/modal/tomato-modal.png"
+            alt="tomato"
+            width="94"
+            height="78"
+          />
+        </div>
+      </label>
+      <!--             vegetables -->
+    </li>
+    <li class="modal-oreder-item">
+      <input
+        type="checkbox"
+        name="order-vegetables"
+        id="order-vegetables"
+        class="order-checkbox visually-hidden"
+      />
+      <span class="modal-order-check-ok"
+        ><svg class="check-ok-icon" width="16" height="16">
+          <use href="../img/icon.svg#icon-checkbox-ok"></use>
+        </svg>
+      </span>
+      <label for="order-vegetables" class="order-check">
+        <span class="modal-order-check"
+          ><svg width="16" height="16">
+            <use href="../img/icon.svg#icon-checkbox"></use>
+          </svg>
+        </span>
+
+        <h3 class="modal-order-title">Vegetables Basket</h3>
+        <p class="modal-item-paragraf">Plant</p>
+
+        <img
+          class="modal-item-img"
+          srcset="
+            ../img/modal/vegetables-modal.png    1x,
+            ../img/modal/vegetables-modal-2x.png 2x
+          "
+          src="../img/modal/vegetables-modal.png"
+          alt="vegetables"
+          width="94"
+          height="78"
+        />
+      </label>
+    </li>
+  </ul>
+  <!--      form+ button block -->
+  <div class="modal-form-block">
+    <form action="./index.html" class="order-form" id="order-form">
+      <label for="user-name"></label>
+      <input
+        class="modal-input"
+        type="text"
+        name="user-name"
+        id="user-name"
+        required
+        placeholder="Enter full name..."
+      />
+      <label for="user-email"></label>
+      <input
+        class="modal-input"
+        type="email"
+        name="user-email"
+        id="user-email"
+        required
+        placeholder="Enter email..."
+      />
+      <label for="user-card"></label>
+      <input
+        class="modal-input"
+        type="text"
+        name="user-card"
+        id="user-card"
+        required
+        placeholder="Enter card.."
+      />
+      <label for="user-comment"></label>
+      <textarea
+        class="modal-text-area"
+        name="user-comment"
+        id="user-comment"
+        placeholder="Enter comments..."
+      ></textarea>
+    </form>
+    <button class="modal-sub-btn" type="button" form="order-form">
+      Submit
+    </button>
+  </div>
+  <div class="modal-img">
+    <img
+      srcset="../img/modal/girl-modal.png 1x, ../img/modal/girl-modal-2x.png 2x"
+      src="../img/modal/girl-modal.png"
+      alt="girl"
+      width="444"
+      height="413"
+    />
+  </div>
+</div>
