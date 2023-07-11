@@ -26,8 +26,11 @@
       <path d="M6.533 7.467C6.533 2.239 10.771-2 16-2s9.467 4.238 9.467 9.467h-4a5.467 5.467 0 0 0-10.934 0h-4zM23.467 12.8zm-16.934 0V7.467A9.467 9.467 0 0 1 16-2v4a5.467 5.467 0 0 0-5.467 5.467V12.8h-4zM16-2a9.467 9.467 0 0 1 9.467 9.467V12.8h-4V7.467A5.467 5.467 0 0 0 16 2v-4z"/>
     </symbol>
     <symbol id="icon-cross" viewBox="0 0 32 32">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M24 8 8 24M8 8l16 16"/>
+     <path fill="none" stroke="#77ac63" style="stroke: var(--color1, #77ac63)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M24 8l-16 16M8 8l16 16"></path>
     </symbol>
+    <symbol id="icon-cross-nocolor" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M24 8l-16 16M8 8l16 16"></path>
+</symbol>
     <symbol id="icon-facebook" viewBox="0 0 31 32">
       <path d="M18.847 5.015h.927v3.476h-1.159c-.464 0-.927 0-1.159.232-.232.232-.232.463-.232 1.004v1.236h2.549v2.935h-2.549v12.745h-3.939V13.821h-2.086v-2.935h2.086V9.882c0-1.699.232-2.935.695-3.476.695-1.004 2.086-1.468 4.171-1.468.232.077.463.077.695.077z"/>
     </symbol>
