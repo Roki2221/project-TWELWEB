@@ -1,0 +1,211 @@
+
+.form-order {
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.56px;
+    background: var(--main-orange);
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.form-title {
+    color: var(--main-black);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.form-subtitle {
+    text-align: center;
+    /* padding-left: 7px;
+    padding-right: 7px;   */
+    margin-bottom: 40px;
+}
+.form {
+    position: relative;
+    width: 100%;
+    
+}
+.form-input {
+    border-radius: 100px;
+    border: 1px solid #141414;
+    opacity: 0.30000001192092896;
+    height: 48px;
+    padding: 15px 24px;
+    display: block;
+    width: 100%;
+
+    color: #C1BDBD;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    margin-bottom: 40px;
+}
+
+.form-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 100px;
+    background: var(--main-orange);
+    padding: 15px 35px;
+    height: 48px;
+    width: 105px;
+    border: none;
+
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.form-img {
+    border-radius: 40px;
+    background: var(--main-orange-light);
+    background-image: url(/img/form/BG-tel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 31px;
+    margin-bottom: 80px;
+}
+
+@media (min-width: 375px) {
+}
+
+@media (min-width: 768px) {
+    .form-box {
+        margin-right: auto;
+        margin-left: auto;
+        width: 524px;
+    }
+    .form-title {
+        color: var(--main-black);
+        text-align: center;
+        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        font-family: DM Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44px;
+        letter-spacing: -1.6px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .form-subtitle {
+        color: var(--main-black);
+        text-align: center;
+        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.72px;
+        width: 499px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-input {
+        width: 350px;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .form-btn {
+        right: 95px;
+    }
+    .form-img {
+        background-image: url(/img/form/BG-tablet.png);
+        padding-top: 17px;
+        padding-right: 37px;
+        padding-left: 37px;
+        
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .form-img {
+            background-image: url(/img/form/BG-tablet-2x.png);
+        }
+    }
+
+    .img-form-girl {
+        margin: auto;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container-form {
+        margin-top: 124px;
+        display: flex;
+        gap: 77px;
+    }
+    .form-title {
+        color: var(--main-black);
+        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        font-family: DM Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: -1.92px;
+        text-transform: uppercase;
+        text-align: start;
+        margin-bottom: 40px;
+        width: 614px;
+    }
+    .form-img {
+        background-image: url(/img/form/BG-dextop.png);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .form-img {
+            background-image: url(/img/form/BG-dextop-2x.png);
+        }
+    }
+
+    .form-box {
+        margin-left: 0;
+        margin-right: auto;
+        width: 614px;
+        
+    }
+    .form-subtitle {
+        color: var(--main-black);
+        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.72px;
+        width: 523px;
+        text-align: start;
+        margin-bottom: 80px;
+        margin-left: 0;
+    }
+    .form-input {
+        width: 355px;
+        margin-left: 0px;
+        margin-right: 75px;
+    }
+    .form-btn {
+        right: 250px;
+    }
+    .img-form-girl  {
+        width: 525px;
+        height: 499px;
+    }
+ }
+    
