@@ -96,6 +96,7 @@
     height: 100%;
     border-radius: 10px;
     border: 1px solid var(--main-black);
+    padding: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,9 +110,6 @@
 
 .footer-icon-li {
     fill: var(--main-black);
-    padding: 8px;
-    /* width: 100%; */
-    /* height: 100%; */
 }
 
 .footer-address-menu {
