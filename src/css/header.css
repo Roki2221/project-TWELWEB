@@ -64,13 +64,16 @@
     position: absolute;
     top: 13px;
     right: 20px;
-    background-color: #ffffff;
+    background: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 24px;
-    height: 24px;
     border: none;
+    padding: 0;
+  }
+
+  .mobile-menu-close-icon {
+    fill: #77ac63;
   }
 
   .mobile-header-logo {
