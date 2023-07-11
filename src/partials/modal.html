@@ -1,15 +1,4 @@
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-  integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>
-<link rel="stylesheet" href="../css/modal.css" />
-<link rel="stylesheet" href="../css/reset.css" />
-<link rel="stylesheet" href="../css/styles.css" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<div class="modal-window">
+<section class="modal-window">
   <div class="modal-header">
     <h2 class="order-basket-title">Your Order</h2>
     <button class="modal-close-btn" type="button" data-modal-close>
@@ -141,6 +130,7 @@
         type="text"
         name="user-name"
         id="user-name"
+        pattern="[a-zA-Z]{1,50}"
         required
         placeholder="Enter full name..."
       />
@@ -150,6 +140,7 @@
         type="email"
         name="user-email"
         id="user-email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
         required
         placeholder="Enter email..."
       />
@@ -159,7 +150,9 @@
         type="text"
         name="user-card"
         id="user-card"
+        pattern="[0-9\s]{13,19}"
         required
+        maxlength="19"
         placeholder="Enter card.."
       />
       <label for="user-comment"></label>
@@ -170,7 +163,7 @@
         placeholder="Enter comments..."
       ></textarea>
     </form>
-    <button class="modal-sub-btn" type="button" form="order-form">
+    <button class="modal-sub-btn" type="submit" form="order-form">
       Submit
     </button>
   </div>
@@ -183,4 +176,4 @@
       height="413"
     />
   </div>
-</div>
+</section>
