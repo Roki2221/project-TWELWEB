@@ -10,7 +10,7 @@
 }
 
 .footer {
-    background-color: #EAF7E5;
+    background-color: var(--main-green-light);
 }
 
 .container-f {
@@ -36,7 +36,7 @@
 .footer-logo-foto{
     border-radius: 100px;
     background: url(<path-to-image>), lightgray 0px -43.24px / 100% 194.972% no-repeat;
-    background: #EAF7E5;
+    background-color: var(--main-green-light);
 }
 
 .footer-logo-img {
@@ -44,7 +44,7 @@
 }
 
 .footer-logo-text {
-    color: #141414;
+    color: var(--main-black);
     text-align: center;
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
@@ -60,15 +60,15 @@
 }
 
 .footer-menu {
-   display: flex;
-   flex-direction: row;
-   gap: 20px;
-   justify-content: center;
-   margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 .footer-menu-link {
-    color: #141414;
+    color: var(--main-black);
     text-align: center;
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
@@ -95,21 +95,20 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    border: 1px solid #141414;
+    border: 1px solid var(--main-black);
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0.800000011920929;
 }
 
-.footer-icon-a:hover,
-.footer-icon-a:focus {
-    color: #A1C487;
-    border-color: #A1C487; ;
+.footer-icon-a:hover {
+    fill: var(--main-green);
+    border-color: var(--main-green); 
 }
 
-.footer-icon-svg {
-    fill: #141414;
+.footer-icon-li {
+    fill: var(--main-black);
     padding: 8px;
     width: 100%;
     height: 100%;
@@ -124,7 +123,7 @@
 }
 
 .footer-address-link {
-    color: #141414;
+    color: var(--main-black);
     text-align: center;
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
@@ -135,7 +134,7 @@
 }
 
 .footer-address-text {
-    color: #141414;
+    color: var(--main-black);
     text-align: center;
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
