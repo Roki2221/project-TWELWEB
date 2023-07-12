@@ -1,12 +1,12 @@
 /* mobile */
-/* .container {
+.container {
   min-width: 280px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
   padding-left: 20px;
-} */
+}
 .title-section-products {
   display: flex;
   flex-direction: column;
@@ -125,11 +125,11 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) {
-  /* .container {
+  .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-  } */
+  }
   .title-products {
     width: 562px;
     font-size: 28px;
@@ -176,11 +176,11 @@
 /* DESCTOP */
 
 @media screen and (min-width: 1280px) {
-  /* .container {
+  .container {
     max-width: 1280px;
     padding-left: 32px;
     padding-right: 32px;
-  } */
+  }
   .title-products {
     font-size: 40px;
     line-height: 1.1;
