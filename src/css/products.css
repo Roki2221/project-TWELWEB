@@ -81,7 +81,7 @@
   padding-top: 22px;
   padding-bottom: 20px;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .last-cards {
     position: absolute;
     width: 1px;
@@ -148,7 +148,6 @@
     line-height: 1.14;
     letter-spacing: -1.12px;
     padding-top: 64px;
-
   }
   .products-desc {
     font-size: 18px;
@@ -170,7 +169,7 @@
   .cards {
     width: 342px;
     height: 465px;
-     }
+  }
 }
 
 /* DESCTOP */
@@ -199,5 +198,5 @@
   .cards {
     width: 389px;
     height: 465px;
-      }
+  }
 }
