@@ -1,9 +1,83 @@
-<section>
-  <header>
-    <ul>
-      <li>Test 1</li>
-      <li>Test 2</li>
-      <li>Test 3</li>
+<header class="page-header">
+  <div class="container page-header-container">
+    <nav class="header-nav">
+      <ul class="header-menu">
+        <li class="header-menu-item">
+          <a href="#howitworks" class="link header-menu-link">How It Works</a>
+        </li>
+        <li class="header-menu-item">
+          <a href="#products" class="link header-menu-link">Vegetables</a>
+        </li>
+        <li class="header-menu-item">
+          <a href="#footer" class="link header-menu-link">Contacts</a>
+        </li>
+      </ul>
+      <a href="./index.html" class="link header-logo">
+        <svg class="header-vector-icon" width="16" height="16">
+          <use href="./img/icon.svg#icon-vector"></use>
+        </svg>
+        VEGGIEBOOST</a
+      >
+      <button
+        type="button"
+        class="mobile-menu-open-btn js-open-menu"
+        aria-expanded="false"
+      >
+        <svg class="mobile-menu-open-btn-icon" width="24" height="24">
+          <use href="./img/icon.svg#icon-gg_menu-left"></use>
+        </svg>
+      </button>
+      <a href="" class="link header-shop-logo">
+        <svg class="header-shop-icon" width="24" height="24">
+          <use
+            href="./img/icon.svg#icon-shopping-cart"
+            class="header-shop-icon-cart"
+          ></use>
+        </svg>
+      </a>
+    </nav>
+  </div>
+</header>
+<div class="mobile-menu js-menu-container">
+  <div class="mobile-menu-container">
+    <button
+      width="24"
+      heigh="24"
+      class="mobile-menu-close-button js-close-menu"
+    >
+      <svg height="24px" width="24px" class="mobile-menu-close-icon">
+        <use href="../img/icon.svg#icon-cross"></use>
+      </svg>
+    </button>
+    <a href="./index.html" class="link mobile-header-logo">
+      <svg class="mobile-header-vector-icon" width="16" height="16">
+        <use href="./img/icon.svg#icon-vector"></use>
+      </svg>
+      VEGGIEBOOST</a
+    >
+  </div>
+  <div class="mobile-container-menu-list">
+    <ul class="mobile-menu-list">
+      <li class="">
+        <a href="#howitworks" class="link mobile-list-link">How It Works</a>
+      </li>
+      <li class="">
+        <a href="#products" class="link mobile-list-link">Vegetables</a>
+      </li>
+      <li class="">
+        <a href="#footer" class="link mobile-list-link">Contacts</a>
+      </li>
+      <li>
+        <a href="./index.html" class="link mobile-header-shop-logo">
+          <svg class="mobile-header-shop-icon" width="24" height="24">
+            <use
+              href="../img/icon.svg#icon-shopping-cart"
+              class="header-shop-icon-cart"
+            ></use>
+          </svg>
+        </a>
+      </li>
     </ul>
-  </header>
-</section>
+  </div>
+</div>
+<script src="../js/mobile-menu.js"></script>
