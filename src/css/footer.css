@@ -18,12 +18,12 @@
 .container-f {
   padding-left: 20px;
   padding-right: 20px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 320px;
   max-width: 375px;
-}
-
-.footer-container {
+  flex-direction: unset;
+  align-items: unset;
 }
 
 .footer-logo-menu {
@@ -31,7 +31,7 @@
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .footer-logo-foto {
@@ -197,10 +197,12 @@
     padding-right: 32px;
     display: flex;
     gap: 166px;
+    justify-content: center;
+    align-items: center;
+    align-content: baseline;
   }
 
   .footer-menu-item {
-    align-items: baseline;
   }
 
   .footer-logo-img {
