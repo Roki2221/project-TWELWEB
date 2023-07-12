@@ -13,38 +13,6 @@
 @import url('./footer.css');
 @import url('./modal.css');
 
-.container {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 320px;
-  max-width: 375px;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-.link {
-  text-decoration: none;
-}
-.list {
-  list-style-type: none;
-}
-
 :root {
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
