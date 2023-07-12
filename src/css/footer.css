@@ -192,14 +192,14 @@
 @media screen and (min-width: 1280px) {
   .container-f {
     max-width: 1280px;
-    max-height: 377px;
+    height: 377px;
     padding-left: 32px;
     padding-right: 32px;
     display: flex;
     gap: 166px;
     justify-content: center;
     align-items: center;
-    align-content: baseline;
+    /* align-content: baseline; */
   }
 
   .footer-menu-item {
