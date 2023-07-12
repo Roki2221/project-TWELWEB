@@ -1,18 +1,9 @@
 .list-howitworks {
     padding-left: 0;
   }
-  .container-howitworks{
-    min-width: 280px;
-    max-width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 20px;
-    padding-left: 20px;
-
-  }
-  
   .container-toorder {
-    margin: 80px auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
   }
@@ -44,24 +35,31 @@
   .container-steps {
     background-color: var(--main-orange-light);
     border-radius: 40px;
-    padding: 40px 20px 0px 20px;
+    /* padding: 40px 20px 0px 20px; */
     background-image: url(/img/howitworks/BG.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 92%;
+    width: 100%;
   
     /* background-image: radial-gradient(circle at 5.025px 5.025px, rgba(165, 196, 135, 0.31) 5.025px, transparent 0);
       background-size: 41.46px 40.2px;
       background-position: 1.5px 5.3px; */
   }
-  
+  .list-container{
+        display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+  }
   .steps-title {
     text-transform: uppercase;
     text-align: start;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     font-weight: 500;
     font-size: 24px;
     line-height: 1.17;
+    padding: 40px 20px;
+
   }
   
   .steps-list {
@@ -69,6 +67,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    margin-top: 0;
   }
   
   .step-item {
@@ -102,7 +101,6 @@
   
   .photo-girl {
     margin: 0 auto;
-    margin-top: 20px;
     width: 258px;
     height: 319px;
     background-image: url(/img/howitworks/img-girl-phone.png);
@@ -121,23 +119,15 @@
   
   /* ------ for mobile-------- */
   @media (min-width: 375px) {
-    .container-howitworks {
-      max-width: 375px;
-    }
-    .container-steps {
-      width: calc(100% - 40px);
-    }
+
   }
   
   /* ------ for laptop -------- */
   @media (min-width: 768px) {
-    .container-howitworks {
-      max-width: 768px;
-      padding-right: 32px;
-      padding-left: 32px;
-    }
+
     .container-toorder {
-      margin: 100px auto;
+      padding-top: 100px;
+      padding-bottom: 100px;
       flex-direction: row;
       flex-wrap: wrap;
       width: 100%;
@@ -171,8 +161,9 @@
       display: flex;
       flex-direction: row-reverse;
       padding: unset;
-      width: calc(100% - 64px);
+      width: 100%;
       border-radius: 80px;
+      align-items: center;
     }
     .photo-girl {
       width: 350px;
@@ -191,12 +182,16 @@
       }
   
     .list-container {
-      margin: 80px 40px 80px 40px;
+
       width: 274px;
+      margin-right: 40px;
+      margin-left: 40px;
     }
     .steps-title {
       font-size: 28px;
       line-height: 1.14;
+      padding: unset;
+      padding-bottom: 40px;
     }
     .number-item {
       width: 46px;
@@ -211,11 +206,10 @@
   
   /* ------ for PC-------- */
   @media (min-width: 1280px) {
-    .container-howitworks{
-      max-width: 1280px;
-    }
+
     .container-toorder {
-      margin: 124px auto;
+     padding-top: 124px;
+     padding-bottom: 124px;
     }
     .toorder-part {
       gap: 192px;
@@ -235,9 +229,10 @@
     }
     .container-steps {
       justify-content: flex-end;
+      
     }
     .photo-girl {
-      margin: 40px 110px 0 80px;
+      /* margin: 40px 110px 0 80px; */
       width: 434px;
       height: 420px;
       background-image: url(/img/howitworks/img-girl-phone.png);
@@ -252,7 +247,9 @@
   
     .list-container {
       width: 512px;
-      margin: 80px 80px 80px 0;
+      margin-right: 80px;
+      margin-left: 30px;
+      align-items: flex-start;
     }
     .steps-title {
       font-size: 40px;
