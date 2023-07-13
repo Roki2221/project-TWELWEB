@@ -1,8 +1,10 @@
 .list-howitworks {
     padding-left: 0;
   }
-  .container-toorder {
+  .howitworks{
     padding-top: 80px;
+  }
+  .container-toorder {
     padding-bottom: 80px;
     display: flex;
     flex-direction: column;
@@ -58,7 +60,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 1.17;
-    padding: 40px 20px;
+    margin: 40px 20px;
 
   }
   
@@ -124,9 +126,10 @@
   
   /* ------ for laptop -------- */
   @media (min-width: 768px) {
-
+    .howitworks {
+        padding-top: 100px;
+      }
     .container-toorder {
-      padding-top: 100px;
       padding-bottom: 100px;
       flex-direction: row;
       flex-wrap: wrap;
@@ -190,8 +193,8 @@
     .steps-title {
       font-size: 28px;
       line-height: 1.14;
-      padding: unset;
-      padding-bottom: 40px;
+      margin: unset;
+      margin-bottom: 40px;
     }
     .number-item {
       width: 46px;
@@ -206,9 +209,10 @@
   
   /* ------ for PC-------- */
   @media (min-width: 1280px) {
-
+    .howitworks {
+        padding-top: 124px;
+      }
     .container-toorder {
-     padding-top: 124px;
      padding-bottom: 124px;
     }
     .toorder-part {
