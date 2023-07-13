@@ -195,7 +195,7 @@
     padding: 40px;
     position: relative;
     overflow: hidden;
-    background-image: url(./image/girl-modal.png);
+    background-image: url(/image/girl-modal.png);
     background-repeat: no-repeat;
     background-position-x: 568px;
     background-position-y: 550px;
