@@ -23,6 +23,7 @@
   height: 100%;
   z-index: 999;
   background-color: rgba(46, 47, 66, 0.4);
+  overflow-y: auto;
 }
 
 .modal-window {
@@ -30,15 +31,16 @@
   min-height: 903px;
   position: absolute;
   padding: 20px;
-  top: 50%;
+  /* top: 50%; */
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translatex(-50%);
   border-radius: 20px;
   background-color: #fff;
   box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01),
     0px 0px 18px 0px rgba(0, 0, 0, 0.02), 0px 0px 36px 0px rgba(0, 0, 0, 0.03),
     0px 0px 71px 0px rgba(0, 0, 0, 0.03), 0px 0px 131px 0px rgba(0, 0, 0, 0.04),
     0px 0px 223px 0px rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
 }
 .modal-header {
   display: flex;
