@@ -1,269 +1,261 @@
 .list-howitworks {
-    padding-left: 0;
-  }
-  .howitworks{
-    padding-top: 80px;
-  }
-  .container-toorder {
-    margin-bottom: 80px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .broccoli-img {
-    margin-bottom: 20px;
-    border-radius: 100px;
-    width: 100%;
-  }
-  
-  .toorder-title {
-    text-align: start;
-    /* text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10); */
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    width: 100%;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 1.14;
-  }
-  
-  .toorder-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
+  padding-left: 0;
+}
+.howitworks {
+  padding-top: 80px;
+}
+.container-toorder {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+}
 
-  
-  .container-steps {
-    background-color: var(--main-orange-light);
-    border-radius: 40px;
-    /* padding: 40px 20px 0px 20px; */
-    background-image: url(/img/howitworks/BG.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-  
-    /* background-image: radial-gradient(circle at 5.025px 5.025px, rgba(165, 196, 135, 0.31) 5.025px, transparent 0);
+.broccoli-img {
+  margin-bottom: 20px;
+  border-radius: 100px;
+  width: 100%;
+}
+
+.toorder-title {
+  text-align: start;
+  /* text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10); */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.14;
+}
+
+.toorder-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-steps {
+  background-color: var(--main-orange-light);
+  border-radius: 40px;
+  /* padding: 40px 20px 0px 20px; */
+  background-image: url(/img/howitworks/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  /* background-image: radial-gradient(circle at 5.025px 5.025px, rgba(165, 196, 135, 0.31) 5.025px, transparent 0);
       background-size: 41.46px 40.2px;
       background-position: 1.5px 5.3px; */
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.steps-title {
+  text-transform: uppercase;
+  text-align: start;
+  /* margin-bottom: 40px; */
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  margin: 40px 20px;
+}
+
+.steps-list {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.step-item {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.number-item {
+  background-color: var(--main-green);
+  border-radius: 200px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  font-family: DM Sans, sans-serif;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-steps {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+}
+
+.photo-girl {
+  margin: 0 auto;
+  width: 258px;
+  height: 319px;
+  background-image: url(/img/howitworks/img-girl-phone.png);
+  z-index: 99;
+  background-position-x: inherit;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .photo-girl {
+    background-image: url(/img/howitworks/img-girl-phone-2x.png);
   }
-  .list-container{
-        display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+}
+
+/* ------ for mobile-------- */
+@media (min-width: 375px) {
+}
+
+/* ------ for laptop -------- */
+@media (min-width: 768px) {
+  .howitworks {
+    padding-top: 100px;
+  }
+  .container-toorder {
+    margin-bottom: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .toorder-part {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .broccoli-img {
+    width: 310px;
+    margin-bottom: 40px;
+  }
+  .toorder-title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .toorder-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 616px;
+  }
+  .toorder-text {
+    font-size: 18px;
+    min-width: 317px;
+    line-height: 1.33;
+  }
+  .container-steps {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: unset;
+    width: 100%;
+    border-radius: 80px;
+    align-items: center;
+  }
+  .photo-girl {
+    width: 350px;
+    height: 446px;
+    margin-top: 40px;
+    background-image: url(/img/howitworks/img-girl-laptop.png);
+    background-size: 350px 446px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .photo-girl {
+      background-image: url(/img/howitworks/img-girl-laptop-2x.png);
+    }
+  }
+
+  .list-container {
+    width: 274px;
+    margin-right: 40px;
+    margin-left: 40px;
   }
   .steps-title {
-    text-transform: uppercase;
-    text-align: start;
-    /* margin-bottom: 40px; */
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 1.17;
-    margin: 40px 20px;
-
+    font-size: 28px;
+    line-height: 1.14;
+    margin: unset;
+    margin-bottom: 40px;
   }
-  
-  .steps-list {
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    margin-top: 0;
-  }
-  
-  .step-item {
-    display: flex;
-    gap: 14px;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
   .number-item {
-    background-color: var(--main-green);
-    border-radius: 200px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1;
-    letter-spacing: -0.04em;
-    font-family: DM Sans, sans-serif;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 46px;
+    height: 44px;
   }
-  
-  .text-steps {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 200px;
+  .steps-list {
+    margin-bottom: unset;
+    margin-right: 0;
+    /* width: 274px; */
+  }
+}
 
+/* ------ for PC-------- */
+@media (min-width: 1280px) {
+  .howitworks {
+    padding-top: 124px;
   }
-  
+  .container-toorder {
+    margin-bottom: 124px;
+  }
+  .toorder-part {
+    gap: 192px;
+  }
+  .broccoli-img {
+    width: 410px;
+    height: 170px;
+  }
+  .toorder-title {
+    font-size: 48px;
+    line-height: 1.04;
+    max-width: 614px;
+  }
+  .toorder-list {
+    max-width: 687px;
+    gap: 40px;
+  }
+  .container-steps {
+    justify-content: flex-end;
+  }
   .photo-girl {
-    margin: 0 auto;
-    width: 258px;
-    height: 319px;
+    /* margin: 40px 110px 0 80px; */
+    width: 434px;
+    height: 420px;
     background-image: url(/img/howitworks/img-girl-phone.png);
-    z-index: 99;
-    background-position-x: inherit;
-    background-repeat: no-repeat;
-    background-size: contain;
   }
-  @media (min-device-pixel-ratio:2),
-  (min-resolution:192dpi),
-  (min-resolution:2dppx) {
-    .photo-girl{
-        background-image: url(/img/howitworks/img-girl-phone-2x.png);
-      }
-    }
-  
-  /* ------ for mobile-------- */
-  @media (min-width: 375px) {
-
-  }
-  
-  /* ------ for laptop -------- */
-  @media (min-width: 768px) {
-    .howitworks {
-        padding-top: 100px;
-      }
-    .container-toorder {
-      padding-bottom: 100px;
-      flex-direction: row;
-      flex-wrap: wrap;
-      width: 100%;
-    }
-    .toorder-part {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .broccoli-img {
-      width: 310px;
-      margin-bottom: 40px;
-    }
-    .toorder-title {
-      margin-bottom: 40px;
-      font-size: 40px;
-      line-height: 1.1;
-    }
-    .toorder-list {
-      display: flex;
-      flex-direction: row;
-      gap: 20px;
-      max-width: 616px;
-    }
-    .toorder-text {
-      font-size: 18px;
-      min-width: 317px;
-      line-height: 1.33;
-    }
-    .container-steps {
-      display: flex;
-      flex-direction: row-reverse;
-      padding: unset;
-      width: 100%;
-      border-radius: 80px;
-      align-items: center;
-    }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .photo-girl {
-      width: 350px;
-      height: 446px;
-      margin-top: 40px;
-      background-image: url(/img/howitworks/img-girl-laptop.png);
-      background-size: 350px 446px;
-     
+      background-image: url(/img/howitworks/img-girl-phone-2x.png);
     }
-    @media (min-device-pixel-ratio:2),
-    (min-resolution:192dpi),
-    (min-resolution:2dppx) {
-      .photo-girl{
-          background-image: url(/img/howitworks/img-girl-laptop-2x.png);
-        }
-      }
-  
-    .list-container {
+  }
 
-      width: 274px;
-      margin-right: 40px;
-      margin-left: 40px;
-    }
-    .steps-title {
-      font-size: 28px;
-      line-height: 1.14;
-      margin: unset;
-      margin-bottom: 40px;
-    }
-    .number-item {
-      width: 46px;
-      height: 44px;
-    }
-    .steps-list {
-      margin-bottom: unset;
-      margin-right: 0;
-      /* width: 274px; */
-    }
+  .list-container {
+    width: 512px;
+    margin-right: 80px;
+    margin-left: 30px;
+    align-items: flex-start;
   }
-  
-  /* ------ for PC-------- */
-  @media (min-width: 1280px) {
-    .howitworks {
-        padding-top: 124px;
-      }
-    .container-toorder {
-     padding-bottom: 124px;
-    }
-    .toorder-part {
-      gap: 192px;
-    }
-    .broccoli-img {
-      width: 410px;
-      height: 170px;
-    }
-    .toorder-title {
-      font-size: 48px;
-      line-height: 1.04;
-      max-width: 614px;
-    }
-    .toorder-list {
-      max-width: 687px;
-      gap: 40px;
-    }
-    .container-steps {
-      justify-content: flex-end;
-      
-    }
-    .photo-girl {
-      /* margin: 40px 110px 0 80px; */
-      width: 434px;
-      height: 420px;
-      background-image: url(/img/howitworks/img-girl-phone.png);
-    }
-    @media (min-device-pixel-ratio:2),
-    (min-resolution:192dpi),
-    (min-resolution:2dppx) {
-      .photo-girl{
-          background-image: url(/img/howitworks/img-girl-phone-2x.png);
-        }
-      }
-  
-    .list-container {
-      width: 512px;
-      margin-right: 80px;
-      margin-left: 30px;
-      align-items: flex-start;
-    }
-    .steps-title {
-      font-size: 40px;
-      line-height: 1.11;
-    }
-    .text-steps {
-      max-width: 289px;
-    }
-    .toorder-text{
-      min-width: 294px;
-    }
+  .steps-title {
+    font-size: 40px;
+    line-height: 1.11;
   }
-  
+  .text-steps {
+    max-width: 289px;
+  }
+  .toorder-text {
+    min-width: 294px;
+  }
+}
