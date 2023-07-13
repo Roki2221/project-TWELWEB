@@ -76,12 +76,9 @@
     background-repeat: no-repeat;
     padding-top: 31px;
 }
-.form-box {
+.form-section{
     padding-top: 80px;
-
-}
-.container-form {
-    padding-bottom: 80px;
+   padding-bottom: 80px; 
 }
 @media (min-width: 375px) {
 }
@@ -91,7 +88,7 @@
         margin-right: auto;
         margin-left: auto;
         width: 524px;
-        margin-top: 100px;
+        
     }
     .form-title {
         color: var(--main-black);
@@ -147,18 +144,19 @@
     .img-form-girl {
         margin: auto;
     }
-    .container-form {
-        padding-bottom: 173px;
-    }
+        .form-section {
+            padding-top: 100px;
+            padding-bottom: 173px;
+        }
 }
 
 @media (min-width: 1280px) {
     .container-form {
-        padding-top: 124px;
+        
         display: flex;
         gap: 77px;
         justify-content: flex-end;
-        padding-bottom: 124px;
+        
     }
     .form-title {
         color: var(--main-black);
@@ -218,5 +216,9 @@
         width: 525px;
         height: 499px;
     }
+        .form-section {
+            padding-top: 124px;
+            padding-bottom: 124px;
+        }
  }
     
