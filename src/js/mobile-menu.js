@@ -1,3 +1,24 @@
+document.addEventListener('DOMContentLoaded', function () {
+  var links = document.getElementsByClassName('mobile-list-link');
+
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', function () {
+      var target = this.getAttribute('href');
+
+      // Закриття модального вікна
+      var mobileMenu = document.querySelector('.js-menu-container');
+      mobileMenu.classList.remove('is-open');
+      var openMenuBtn = document.querySelector('.js-open-menu');
+      openMenuBtn.setAttribute('aria-expanded', 'false');
+
+      // Перехід до відповідної секції
+      document.querySelector(target).scrollIntoView({
+        behavior: 'smooth',
+      });
+    });
+  }
+});
+
 (() => {
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');

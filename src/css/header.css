@@ -49,6 +49,7 @@
 
   .mobile-menu {
     position: fixed;
+    left: -100%;
     top: 0;
     right: 0;
     width: 100%;
@@ -57,7 +58,25 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    z-index: 500;
+    z-index: 1000;
+    transition: left 0.3s ease;
+  }
+
+  .mobile-menu.is-open {
+    left: 0;
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .mobile-menu.is-open {
+    animation: slideInFromLeft 0.5s ease;
   }
 
   .mobile-menu.is-open {
