@@ -130,7 +130,7 @@
         padding-top: 100px;
       }
     .container-toorder {
-      padding-bottom: 100px;
+      margin-bottom: 100px;
       flex-direction: row;
       flex-wrap: wrap;
       width: 100%;
@@ -213,7 +213,7 @@
         padding-top: 124px;
       }
     .container-toorder {
-     padding-bottom: 124px;
+    margin-bottom: 124px;
     }
     .toorder-part {
       gap: 192px;
