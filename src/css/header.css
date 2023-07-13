@@ -80,6 +80,7 @@
   }
 
   .mobile-menu.is-open {
+    overflow-y: auto;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
