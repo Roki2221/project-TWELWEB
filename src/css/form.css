@@ -11,7 +11,6 @@
     text-transform: uppercase;
     margin-bottom: 80px;
 }
-
 .form-title {
     color: var(--main-black);
     text-align: center;
@@ -21,7 +20,6 @@
     line-height: 1.17;
     letter-spacing: -0.04em;
     margin-bottom: 20px;
-    margin-top: 80px;
 }
 .form-subtitle {
     text-align: center;
@@ -77,9 +75,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 31px;
+}
+.form-box {
+    margin-top: 80px;
+
+}
+.container-form {
     margin-bottom: 80px;
 }
-
 @media (min-width: 375px) {
 }
 
@@ -88,6 +91,7 @@
         margin-right: auto;
         margin-left: auto;
         width: 524px;
+        margin-top: 100px;
     }
     .form-title {
         color: var(--main-black);
@@ -101,6 +105,7 @@
         letter-spacing: -1.6px;
         text-transform: uppercase;
         margin-bottom: 20px;
+        width: 524px;
     }
     .form-subtitle {
         color: var(--main-black);
@@ -129,7 +134,7 @@
         padding-top: 17px;
         padding-right: 37px;
         padding-left: 37px;
-        
+        border-radius: 80px;    
     }
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -142,6 +147,9 @@
     .img-form-girl {
         margin: auto;
     }
+    .container-form {
+        margin-bottom: 173px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -149,6 +157,8 @@
         margin-top: 124px;
         display: flex;
         gap: 77px;
+        justify-content: flex-end;
+        margin-bottom: 124px;
     }
     .form-title {
         color: var(--main-black);
@@ -166,6 +176,7 @@
     }
     .form-img {
         background-image: url(/img/form/BG-dextop.png);
+        
     }
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
