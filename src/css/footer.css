@@ -151,6 +151,10 @@
   .container-f {
     max-width: 375px;
   }
+
+  .footer-project-logo {
+    margin-bottom: 40px;
+  }
 }
 
 /**----------TABLET----------**/
@@ -185,6 +189,10 @@
     max-width: 173px;
     text-align: left;
   }
+
+  .footer-project-logo {
+    margin-bottom: 40px;
+  }
 }
 
 /**----------DESKTOP----------**/
@@ -192,13 +200,14 @@
 @media screen and (min-width: 1280px) {
   .container-f {
     max-width: 1280px;
-    height: 377px;
     padding-left: 32px;
     padding-right: 32px;
     display: flex;
     gap: 166px;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
     /* align-content: baseline; */
   }
 
